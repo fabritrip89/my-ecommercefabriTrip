@@ -1,11 +1,17 @@
-import './App.css';
-import NavBar from './components/NavBar';
+import "./App.css";
+import NavBar from "./components/NavBar";
+import React from "react";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
-  return (
+  // const [greeting, setGreeting] = useState("Hola mundo");
 
-    <NavBar/>
- 
+  return (
+    <>
+      <NavBar />
+      <ItemListContainer texto ='To the Moon'/>
+
+    </>
   );
 }
 

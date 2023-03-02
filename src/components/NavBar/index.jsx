@@ -1,8 +1,13 @@
 import React from "react";
 import "./navStyles.css";
+import CartWidget from "../CartWidget";
+
+
+
 
 export const NavBar = () => {
   return (
+
     <nav>
       <a href="index.html">
         <svg
@@ -62,10 +67,13 @@ export const NavBar = () => {
         </svg>
       </a>
 
-      <div>
+      <div >
         <ul>
+
+
+          
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">Home </a>
           </li>
           <li>
             <a href="index.html">Shop</a>
@@ -76,6 +84,11 @@ export const NavBar = () => {
           <li>
             <a href="index.html">Contact</a>
           </li>
+
+          <li>
+              <a className="jjj" href="rrr">  <CartWidget/></a>
+          </li>
+
         </ul>
       </div>
 
